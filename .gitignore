@@ -1,0 +1,10 @@
+# Visual Studio junk
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.sln.docstates
+
+# Sensitive Data
+appsettings.Development.json

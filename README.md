@@ -1,38 +1,16 @@
-# MediAi: Pharmacy Management System 🏥
+# React + Vite
 
-**MediAi** is a professional-grade, full-stack inventory and staff management solution designed for modern pharmacies. It features a high-performance React dashboard connected to a secure .NET 8 Web API.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🌟 Key Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* **Secure Authentication:** Role-based access control (Admin vs. Staff).
-* **Inventory Intelligence:** Real-time stock tracking with visual "Low Stock" alerts.
-* **Staff Management:** Admin portal to create, view, and manage system users.
-* **Live Search:** High-speed filtering for medicine names and user records.
-* **Modern UI:** Clean, responsive interface built with Lucide-React and glassmorphism styling.
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Technical Stack
+## Expanding the ESLint configuration
 
-### **Frontend**
-* **Framework:** React.js (Vite)
-* **Icons:** Lucide-React
-* **API Client:** Axios
-* **Styling:** Modern CSS3 (Flexbox/Grid)
-
-### **Backend**
-* **Framework:** ASP.NET Core 8.0 Web API
-* **Database:** Microsoft SQL Server
-* **ORM:** Entity Framework Core (Code First)
-
----
-
-## 📂 Project Structure
-
-```text
-MediAi/
-├── BackEnd/        # .NET Web API Source Code & SQL Logic
-├── frontEnd/       # React.js UI & Frontend Logic
-└── README.md       # Project Documentation
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
